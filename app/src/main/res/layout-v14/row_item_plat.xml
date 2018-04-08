@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:background="@android:color/holo_orange_dark"
+    android:paddingBottom="15dp"
+    android:paddingEnd="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="5dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/aPlat">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="prix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prix"
+                android:textSize="12sp"
+                android:layout_below="@+id/nom"
+                android:layout_alignLeft="@+id/nom"
+                android:layout_alignStart="@+id/nom"
+                android:textColor="?android:attr/colorMultiSelectHighlight" />
+
+            <TextView
+                android:text="idPlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idPlat"
+                android:textSize="12sp"
+                android:layout_alignBaseline="@+id/nom"
+                android:layout_alignBottom="@+id/nom"
+                android:layout_toRightOf="@+id/nom"
+                android:layout_toEndOf="@+id/nom"
+                android:textColor="?android:attr/colorMultiSelectHighlight" />
+
+            <TextView
+                android:text="tempsPreparation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tempsPreparation"
+                android:textSize="12sp"
+                android:layout_below="@+id/prix"
+                android:layout_alignLeft="@+id/prix"
+                android:layout_alignStart="@+id/prix"
+                android:textColor="?android:attr/colorMultiSelectHighlight"/>
+
+            <TextView
+                android:text="disponible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/disponible"
+                android:textSize="12sp"
+                android:layout_below="@+id/tempsPreparation"
+                android:layout_alignLeft="@+id/tempsPreparation"
+                android:layout_alignStart="@+id/tempsPreparation"
+                android:textColor="?android:attr/colorMultiSelectHighlight"/>
+
+            <TextView
+                android:text="description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"
+                android:textSize="12sp"
+                android:layout_below="@+id/disponible"
+                android:layout_alignLeft="@+id/disponible"
+                android:layout_alignStart="@+id/disponible"
+                android:textColor="?android:attr/colorMultiSelectHighlight" />
+
+            <TextView
+                android:text="idCategorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idCategorie"
+                android:textSize="12sp"
+                android:layout_below="@+id/nom"
+                android:layout_toRightOf="@+id/prix"
+                android:layout_toEndOf="@+id/prix"
+                android:textColor="?android:attr/colorMultiSelectHighlight"/>
+
+            <ImageView
+                android:layout_height="120dp"
+            android:src="@drawable/white"
+            android:id="@+id/image"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:elevation="4dp"
+                android:layout_width="120dp" />
+
+            <TextView
+                android:text="nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nom"
+                android:textSize="18sp"
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/image"
+                android:layout_toEndOf="@+id/image" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" >-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+
+
+
+</RelativeLayout>

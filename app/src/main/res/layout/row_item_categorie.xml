@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@android:color/holo_orange_dark"
+    android:elevation="7dp"
+    android:paddingBottom="15dp"
+    android:paddingEnd="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="5dp">
+
+
+    <ImageView
+        android:layout_width="185dp"
+        android:layout_height="120dp"
+        android:src="@drawable/white"
+        android:id="@+id/image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:elevation="4dp" />
+
+    <TextView
+        android:text="idCategorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idCategorie"
+        android:textSize="12sp"
+        android:layout_below="@+id/nom"
+        android:layout_alignLeft="@+id/nom"
+        android:layout_alignStart="@+id/nom" />
+
+    <TextView
+        android:text="nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nom"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:text="description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:textSize="12sp"
+        android:layout_below="@+id/idCategorie"
+        android:layout_alignLeft="@+id/idCategorie"
+        android:layout_alignStart="@+id/idCategorie"
+        android:textColor="@android:color/holo_orange_dark" />
+
+
+</RelativeLayout>

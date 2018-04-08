@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "129539663644",
+    "project_id": "koala-3aad6"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129539663644:android:a2aca83b1d3a4e81",
+        "android_client_info": {
+          "package_name": "mob.jamaldev.dz.koala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129539663644-gm4cm2r5og66j58ouh0k41edj1im9f07.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129539663644-rn73iaed5uaeg81gvl7r293j0sqinsju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mob.jamaldev.dz.koala",
+            "certificate_hash": "019a88efcbeb3bc85fae77f6423d1a3030bf3e53"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTA93CjdMOME8o8PMkswOB0YPLudYUv80"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

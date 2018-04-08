@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="koala_alpha_theme" parent="android:Theme.Holo.Light">
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <item name="android:colorForeground">@android:color/holo_orange_dark</item>
+        <item name="android:textColorPrimary">@color/background_holo_light</item>
+        <item name="android:textColorPrimaryInverse">@color/cardview_dark_background</item>
+        <item name="android:windowBackground">@android:color/holo_orange_dark</item>
+    </style>
+</resources>
